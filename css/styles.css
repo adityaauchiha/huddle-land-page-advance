@@ -1,0 +1,405 @@
+body {
+  margin: 0;
+  height: auto;
+}
+
+.container {
+  height: auto;
+
+}
+
+
+.first-block {
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 200px;
+}
+.content {
+  display: flex;
+  padding: 20px;
+}
+
+.mockup{
+  max-width: 690px;
+}
+
+.logorow{
+  display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.logowidth{
+  width: 200px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.pfirst{
+  font-family: sans-serif;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 40px;
+    margin-top: 40px;
+    width: auto;
+}
+.button {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: white;
+  font-family: 'Poppins';
+  color: black;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 50px;
+}
+.button:hover{
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+}
+.btn{
+  background-color: hsl(322, 100%, 66%);
+  color:white;
+}
+.contentinfo {
+  padding: 10px;
+  margin-right: 100px;
+}
+
+/* secondblock                                secondblock */
+
+.firstcol{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0.5rem 0.5rem 1.5rem rgb(0 0 0 / 19%);
+  border-radius: 10px;
+  column-gap: 40px;
+    padding: 50px;
+    align-items: center;
+}
+
+.pwidth{
+  max-width: 500px;
+  font-size: 1.1rem;
+}
+
+
+.left {
+  order: 2;
+}
+.secondcol {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0.5rem 0.5rem 1.5rem rgb(0 0 0 / 19%);
+  border-radius: 10px;
+  column-gap: 40px;
+    padding: 50px;
+    align-items: center;
+}
+
+.thirdcol{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0.5rem 0.5rem 1.5rem rgb(0 0 0 / 19%);
+  border-radius: 10px;
+  column-gap: 40px;
+    padding: 50px;
+    align-items: center;
+}
+.secondblockimages {
+  width: 300px;
+    height: 15rem;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+}
+h2 {
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+}
+
+.s2t2h2{
+  font-size: 1.2rem;
+}
+.columnrow {
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    row-gap: 65px;
+}
+.secondblock{
+  padding: 100px 300px;
+}
+
+.right{
+  line-height: 1.8rem;
+}
+
+
+/* third block third block third block */
+
+.thirdblock {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  height: auto;
+}
+
+.ready {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem rgb(0 0 0 / 19%);
+    transform: translateY(50%);
+}
+
+.button{
+  border: 0;
+  margin-bottom: 30px;
+}
+
+.logosecond {
+    filter: brightness(0) invert(1);
+    width: 180px;
+    height: 40px;
+
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.1rem;
+
+}
+
+.address {
+  width: 20%;
+}
+
+.pmargin{
+  /* margin: 30px 0; */
+}
+
+.images {
+  list-style: none;
+padding-left: 0;
+}
+.image{
+  display: flex;
+    align-items: center;
+}
+.imgmargin {
+  margin-right: 15px;
+}
+
+.fa {
+  border-radius: 100%;
+    border: 1px solid;
+    padding: 10px;
+}
+.fa-twitter {
+  margin: 0 10px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.6rem;
+}
+.footer-content {
+  padding-top: 150px;
+}
+
+
+
+
+
+/* for mobile for mobile for mobile */
+
+@media (max-width:1000px) {
+
+
+  body {
+    margin: 0;
+    height: auto;
+  }
+
+  .container {
+    height: auto;
+
+  }
+
+
+  .first-block {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+  }
+  .content {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .mockup {
+width: 100%;
+ }
+
+  .logorow{
+    display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      align-items: center;
+  }
+  .logowidth{
+    width: 100px;
+      height: 25px;
+  }
+  h1 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+  }
+  h2 {
+    font-family: 'Poppins';
+    font-size: 1.1rem;
+  }
+  .pfirst {
+      font-family: sans-serif;
+      font-weight: 400;
+      color: hsl(208, 11%, 55%);
+
+  }
+  .button1 {
+      width: 100px;
+      height: 27px;
+      text-align: center;
+      font-size: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    background-color: white;
+    font-family: 'Poppins';
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 50px;
+  }
+  .btn{
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+  }
+  .contentinfo {
+    padding: 10px;
+    margin-right: 0;
+  }
+
+  /* p {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: hsl(208, 11%, 55%);
+  } */
+
+/* secondblock                                secondblock */
+
+.secondblock {
+  padding: 20px 30px;
+}
+.columnrow {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 65px;
+    align-items: stretch;
+}
+
+
+
+.firstcol {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.secondblockimages {
+  width: 80%;
+  height: 12rem;
+}
+
+.right {
+  order: 2;
+}
+.left2 {
+  order: 2;
+}
+.secondcol {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+text-align: center;
+}
+
+.thirdcol {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+text-align: center;
+}
+.pwidth {
+    max-width: 500px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.right {
+  line-height: 1.4rem;
+}
+
+/* third-block             third-block */
+
+.address{
+  width: 100%
+}
+
+.footer-block {
+  display: flex;
+    font-size: 1.1rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer {
+  padding: 20px;
+}
+
+.ready {
+  width: 80%;
+  text-align: center;
+}
+
+
+
+}
