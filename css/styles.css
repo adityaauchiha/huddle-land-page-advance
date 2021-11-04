@@ -229,7 +229,14 @@ padding-left: 0;
 .footer-content {
   padding-top: 150px;
 }
-
+.attribution {
+   font-size: 11px; text-align: center;
+   background-color: hsl(192, 100%, 9%);
+   margin: 0;
+ }
+.attribution a {
+   color: white;
+}
 
 
 
